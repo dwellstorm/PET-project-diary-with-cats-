@@ -1,0 +1,169 @@
+.my-profile-main {
+    height: 100%;
+    width: 100%;
+    background-color: #fff8f0;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+     */
+}
+.card-about-user {
+    display: flex;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.082);
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 5%;
+    background-color: white;
+    margin-left: 50px;
+}
+
+.transform-container {
+    transition: transform 0.4s;
+    width: 50%;
+    height: 43%;
+}
+.transform-container:hover {
+    transform: scale(1.05);
+}
+.change-profile-button {
+    width: 20%;
+    height: 4%;
+    position: relative;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+    color: #ab969a;
+    background-color: transparent;
+    text-decoration: underline;
+    font-style: italic;
+    left: 79%;
+    top: 15%;
+}
+.block-for-photo-and-button {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7%;
+        margin-left: 4%;
+
+}
+.change-photo-button {
+    width: 100%;
+    height: 10%;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 204, 195);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.041);
+}
+.change-photo-input {
+    font-size: 12px;
+    width: 100%;
+    height: 10%;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 204, 195);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.041);
+}
+.change-photo-button:hover {
+    background-color: #ffbcb0f7;
+    transition: 0.3s;
+}
+.card-about-user img {
+    width: 90%;
+    height: 70%;
+    margin-left: 10px;
+}
+.user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    /* padding-top: 3%; */
+}
+.urgent-user-info {
+    font-family: 'Playfair Display', serif;
+    font-size: 160%;
+    color: #5c3d47;
+    font-weight: 400;
+}
+.textarea-for-user-info {
+    margin-top: 15%;
+    resize: none;
+    background-color: #f9f5f6;
+    border-radius: 20px;      
+    border-color: #f9f5f6;
+    padding: 3% 5%;
+    color: #7e6a6f;
+    font-family: 'Inter', sans-serif;
+    font-size: 95%;
+    font-weight: 400;
+    cursor: pointer;
+}
+.user-registration-date {
+    width: fit-content;
+    height: fit-content;
+    color: #ab969a;
+    font-style: italic;
+    margin-top: 7%;
+}
+.card-statictic {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.082);
+justify-content: center;
+    width: 50%;
+    height: 43%;
+    gap: 5%;
+    margin-left: 700px;
+    margin-top: 80px;
+    transition: transform 0.4s;
+}
+.card-statictic:hover {
+    transform: scale(1.05);
+}
+.statictic-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 160%;
+color: #7e6a6f;    text-align: left;
+    margin-left: 4%;
+    background-color: #fcf9fa;
+
+}
+.buttons-for-user-info {
+    display: flex;
+}
+.button-save-user-info {
+    margin-left: 10px;
+    background-color: rgb(255, 221, 215);
+    color: rgb(124, 92, 86);
+}
+.button-save-user-info,
+.button-delete-user-info {
+    height: 30px;
+    width: 35px;
+    margin-right: 10px;
+    margin-top: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: transparent;
+    font-size: 20px;
+    padding-bottom: 3px;
+    color: #5c3d47;
+
+}
+textarea.textarea-for-user-info {
+    margin-top: 10%;
+}

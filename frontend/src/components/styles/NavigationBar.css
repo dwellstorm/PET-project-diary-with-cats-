@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    height: 7%;
+    justify-content: center;
+    align-items: center;
+    gap: 6%;
+    font-size: 160%;
+    background-color: #e6cfd490;
+}
+.navbar a {
+    text-decoration: none;
+    color: #5c3d47;
+}
+.navbar a:hover {
+    color: #c38b9d;
+    transition: 0.3s;
+}
+.button-for-login {
+    width: 60px;
+    color: #5c3d47;
+    cursor: pointer;
+    border: transparent;
+    background-color: transparent;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button-for-login:hover {
+    color: #c38b9d;
+    transition: 0.3s;
+}

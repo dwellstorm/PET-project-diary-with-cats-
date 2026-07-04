@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body, #root {
+    height: 100%;
+    width: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Comfortaa:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lavishly+Yours&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Caveat:wght@400..700&family=Comfortaa:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lavishly+Yours&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600&family=Playfair+Display:ital@0;1&display=swap');
+.main-cat-card {
+    height: 92.5%;
+    width: 100%;
+    background-color: #fff8f0;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+.block-card-and-x {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.button-X {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 200%;
+    position: relative;
+    top: -39%;
+    left: 2%;
+    color: #5c3d47;
+}
+.button-X:hover {
+    color: #a86a7c;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+.cat-card {
+    height: 90%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.401);
+    border-radius: 10%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.082);
+}
+.cat-card-h1-block {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 13%;
+    background: #e6cfd490; 
+;
+}
+.cat-card-h1 {
+     width: 100%;
+    position: relative;
+    top: 1%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 160%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5c3d47;  /* приглушённый, тёплый, но не сладкий */
+}
+.cat-card-buttons-and-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 90%;
+    gap: 10%;
+}
+.cat-card-image {
+    height: 60%;
+    width: 50%;
+}
+.cat-card-button {
+    width: 10%;
+    height: 17%;
+    background-color: transparent;
+    border: none;
+    font-size: 200%;
+    color: rgb(255, 204, 195);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.cat-card-button:hover {
+    transform: scale(1.30);
+    transition: transform 0.5s ease-in-out;
+}
+.cat-card-button:active {
+    transform: scale(0.98);
+}
+.cat-card-quote-and-entry {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 80%;
+    gap: 6%;
+}
+.cat-card-cat-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 240%;
+    font-weight: 500;
+    color: #5c3d47;
+    background: none;
+    -webkit-text-fill-color: #5c3d47;
+}
+
+.cat-card-quote {
+   font-family: 'Inter', sans-serif;
+    font-size: 95%;
+    font-weight: 400;
+    color: #7e6a6f;
+    font-style: normal;
+    text-align: center;
+}
+.user-entry {
+    height: 100%;
+    width: 100%;
+    resize: none;
+    background-color: #f9f5f6;
+    border-radius: 20px;      
+    border-color: #f9f5f6;
+    padding: 3% 5%;
+    
+}
+.user-entry::placeholder {
+    color: #c9a5af;
+    font-family: 'Inter';
+    font-size: 100%;
+}
+.user-entry:focus {
+    outline: 1px solid #ada9aa;
+}
+.save-button {
+    width: 40%;
+    height: 40%;
+    border-radius: 9999px;
+    background-color: rgb(255, 204, 195);
+    border: none;;
+    font-family: 'montserrat';
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.save-button:hover {
+    background: linear-gradient(145deg, #ffbcb0 0%, #ffb0a2 100%);
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 6px 12px rgba(168, 106, 124, 0.2);
+}
+.save-button:active {
+    transform: scale(0.98);
+}
